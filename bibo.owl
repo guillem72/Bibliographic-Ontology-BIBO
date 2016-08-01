@@ -18,6 +18,7 @@
     <!ENTITY ns "http://www.w3.org/2003/06/sw-vocab-status/ns#" >
     <!ENTITY schema "http://schemas.talis.com/2005/address/schema#" >
     <!ENTITY prism "http://prismstandard.org/namespaces/1.2/basic/" >
+     <!ENTITY none "http://none.none/namespaces/1.2/basic/" >
 ]>
 
 
