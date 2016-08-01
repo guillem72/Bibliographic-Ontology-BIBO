@@ -1,0 +1,61 @@
+{
+  "@context" : {
+    "release" : {
+      "@id" : "http://usefulinc.com/ns/doap#release"
+    },
+    "created" : {
+      "@id" : "http://usefulinc.com/ns/doap#created"
+    },
+    "browse" : {
+      "@id" : "http://usefulinc.com/ns/doap#browse"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker"
+    },
+    "repository" : {
+      "@id" : "http://usefulinc.com/ns/doap#repository"
+    },
+    "homepage" : {
+      "@id" : "http://usefulinc.com/ns/doap#homepage"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "documenter" : {
+      "@id" : "http://usefulinc.com/ns/doap#documenter"
+    },
+    "SVNRepository" : {
+      "@id" : "http://usefulinc.com/ns/doap#SVNRepository"
+    },
+    "shortdesc" : {
+      "@id" : "http://usefulinc.com/ns/doap#shortdesc"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "location" : {
+      "@id" : "http://usefulinc.com/ns/doap#location"
+    },
+    "weblog" : {
+      "@id" : "http://xmlns.com/foaf/0.1/weblog"
+    },
+    "shortname" : {
+      "@id" : "http://usefulinc.com/ns/doap#shortname"
+    },
+    "Project" : {
+      "@id" : "http://usefulinc.com/ns/doap#Project"
+    },
+    "maintainer" : {
+      "@id" : "http://usefulinc.com/ns/doap#maintainer"
+    },
+    "mailing-list" : {
+      "@id" : "http://usefulinc.com/ns/doap#mailing-list"
+    },
+    "logo" : {
+      "@id" : "http://xmlns.com/foaf/0.1/logo"
+    },
+    "Version" : {
+      "@id" : "http://usefulinc.com/ns/doap#Version"
+    }
+  }
+}

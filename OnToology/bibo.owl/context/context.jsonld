@@ -1,0 +1,629 @@
+{
+  "@context" : {
+    "abstract" : {
+      "@id" : "http://purl.org/ontology/bibo/abstract",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "MultiVolumeBook" : {
+      "@id" : "http://purl.org/ontology/bibo/MultiVolumeBook"
+    },
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
+    },
+    "Magazine" : {
+      "@id" : "http://purl.org/ontology/bibo/Magazine"
+    },
+    "isVersionOf" : {
+      "@id" : "http://purl.org/dc/terms/isVersionOf",
+      "@type" : "@id"
+    },
+    "owner" : {
+      "@id" : "http://purl.org/ontology/bibo/owner",
+      "@type" : "@id"
+    },
+    "ReferenceSource" : {
+      "@id" : "http://purl.org/ontology/bibo/ReferenceSource"
+    },
+    "term_status" : {
+      "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"
+    },
+    "DocumentPart" : {
+      "@id" : "http://purl.org/ontology/bibo/DocumentPart"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "EditedBook" : {
+      "@id" : "http://purl.org/ontology/bibo/EditedBook"
+    },
+    "handle" : {
+      "@id" : "http://purl.org/ontology/bibo/handle",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Webpage" : {
+      "@id" : "http://purl.org/ontology/bibo/Webpage"
+    },
+    "degree" : {
+      "@id" : "http://purl.org/ontology/bibo/degree",
+      "@type" : "@id"
+    },
+    "pageStart" : {
+      "@id" : "http://purl.org/ontology/bibo/pageStart",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "example" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#example"
+    },
+    "Email" : {
+      "@id" : "http://purl.org/ontology/bibo/Email"
+    },
+    "AudioVisualDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/AudioVisualDocument"
+    },
+    "agent" : {
+      "@id" : "http://purl.org/NET/c4dm/event.owl#agent",
+      "@type" : "@id"
+    },
+    "suffixName" : {
+      "@id" : "http://purl.org/ontology/bibo/suffixName",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "court" : {
+      "@id" : "http://purl.org/ontology/bibo/court",
+      "@type" : "@id"
+    },
+    "pageEnd" : {
+      "@id" : "http://purl.org/ontology/bibo/pageEnd",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "eIssn" : {
+      "@id" : "http://prismstandard.org/namespaces/1.2/basic/eIssn"
+    },
+    "Organization" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Organization"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "issue" : {
+      "@id" : "http://purl.org/ontology/bibo/issue",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "references" : {
+      "@id" : "http://purl.org/dc/terms/references",
+      "@type" : "@id"
+    },
+    "Proceedings" : {
+      "@id" : "http://purl.org/ontology/bibo/Proceedings"
+    },
+    "locator" : {
+      "@id" : "http://purl.org/ontology/bibo/locator",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Note" : {
+      "@id" : "http://purl.org/ontology/bibo/Note"
+    },
+    "pages" : {
+      "@id" : "http://purl.org/ontology/bibo/pages",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "place" : {
+      "@id" : "http://purl.org/NET/c4dm/event.owl#place",
+      "@type" : "@id"
+    },
+    "sici" : {
+      "@id" : "http://purl.org/ontology/bibo/sici",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Workshop" : {
+      "@id" : "http://purl.org/ontology/bibo/Workshop"
+    },
+    "depiction" : {
+      "@id" : "http://xmlns.com/foaf/0.1/depiction",
+      "@type" : "@id"
+    },
+    "Map" : {
+      "@id" : "http://purl.org/ontology/bibo/Map"
+    },
+    "eissn" : {
+      "@id" : "http://purl.org/ontology/bibo/eissn",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "reproducedIn" : {
+      "@id" : "http://purl.org/ontology/bibo/reproducedIn",
+      "@type" : "@id"
+    },
+    "director" : {
+      "@id" : "http://purl.org/ontology/bibo/director",
+      "@type" : "@id"
+    },
+    "issuer" : {
+      "@id" : "http://purl.org/ontology/bibo/issuer",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "doi" : {
+      "@id" : "http://prismstandard.org/namespaces/1.2/basic/doi"
+    },
+    "isPartOf" : {
+      "@id" : "http://purl.org/dc/terms/isPartOf",
+      "@type" : "@id"
+    },
+    "historyNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#historyNote"
+    },
+    "hasPart" : {
+      "@id" : "http://purl.org/dc/terms/hasPart",
+      "@type" : "@id"
+    },
+    "reviewOf" : {
+      "@id" : "http://purl.org/ontology/bibo/reviewOf",
+      "@type" : "@id"
+    },
+    "recipient" : {
+      "@id" : "http://purl.org/ontology/bibo/recipient",
+      "@type" : "@id"
+    },
+    "uri" : {
+      "@id" : "http://purl.org/ontology/bibo/uri",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "reversedBy" : {
+      "@id" : "http://purl.org/ontology/bibo/reversedBy",
+      "@type" : "@id"
+    },
+    "Bill" : {
+      "@id" : "http://purl.org/ontology/bibo/Bill"
+    },
+    "affirmedBy" : {
+      "@id" : "http://purl.org/ontology/bibo/affirmedBy",
+      "@type" : "@id"
+    },
+    "presents" : {
+      "@id" : "http://purl.org/ontology/bibo/presents",
+      "@type" : "@id"
+    },
+    "LegalCaseDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/LegalCaseDocument"
+    },
+    "interviewee" : {
+      "@id" : "http://purl.org/ontology/bibo/interviewee",
+      "@type" : "@id"
+    },
+    "transcriptOf" : {
+      "@id" : "http://purl.org/ontology/bibo/transcriptOf",
+      "@type" : "@id"
+    },
+    "interviewer" : {
+      "@id" : "http://purl.org/ontology/bibo/interviewer",
+      "@type" : "@id"
+    },
+    "Chapter" : {
+      "@id" : "http://purl.org/ontology/bibo/Chapter"
+    },
+    "LegalDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/LegalDocument"
+    },
+    "citedBy" : {
+      "@id" : "http://purl.org/ontology/bibo/citedBy",
+      "@type" : "@id"
+    },
+    "Performance" : {
+      "@id" : "http://purl.org/ontology/bibo/Performance"
+    },
+    "AcademicArticle" : {
+      "@id" : "http://purl.org/ontology/bibo/AcademicArticle"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "Event" : {
+      "@id" : "http://purl.org/NET/c4dm/event.owl#Event"
+    },
+    "CollectedDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/CollectedDocument"
+    },
+    "localityName" : {
+      "@id" : "http://schemas.talis.com/2005/address/schema#localityName"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "based_near" : {
+      "@id" : "http://xmlns.com/foaf/0.1/based_near",
+      "@type" : "@id"
+    },
+    "presentedAt" : {
+      "@id" : "http://purl.org/ontology/bibo/presentedAt",
+      "@type" : "@id"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#note"
+    },
+    "Patent" : {
+      "@id" : "http://purl.org/ontology/bibo/Patent"
+    },
+    "Report" : {
+      "@id" : "http://purl.org/ontology/bibo/Report"
+    },
+    "product" : {
+      "@id" : "http://purl.org/NET/c4dm/event.owl#product",
+      "@type" : "@id"
+    },
+    "Book" : {
+      "@id" : "http://purl.org/ontology/bibo/Book"
+    },
+    "Agent" : {
+      "@id" : "http://purl.org/dc/terms/Agent"
+    },
+    "eanucc13" : {
+      "@id" : "http://purl.org/ontology/bibo/eanucc13",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Legislation" : {
+      "@id" : "http://purl.org/ontology/bibo/Legislation"
+    },
+    "Slide" : {
+      "@id" : "http://purl.org/ontology/bibo/Slide"
+    },
+    "name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/name"
+    },
+    "prefixName" : {
+      "@id" : "http://purl.org/ontology/bibo/prefixName",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Article" : {
+      "@id" : "http://purl.org/ontology/bibo/Article"
+    },
+    "section" : {
+      "@id" : "http://purl.org/ontology/bibo/section",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "translator" : {
+      "@id" : "http://purl.org/ontology/bibo/translator",
+      "@type" : "@id"
+    },
+    "Brief" : {
+      "@id" : "http://purl.org/ontology/bibo/Brief"
+    },
+    "value" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "@type" : "@id"
+    },
+    "Manuscript" : {
+      "@id" : "http://purl.org/ontology/bibo/Manuscript"
+    },
+    "Website" : {
+      "@id" : "http://purl.org/ontology/bibo/Website"
+    },
+    "subsequentLegalDecision" : {
+      "@id" : "http://purl.org/ontology/bibo/subsequentLegalDecision",
+      "@type" : "@id"
+    },
+    "organizer" : {
+      "@id" : "http://purl.org/ontology/bibo/organizer",
+      "@type" : "@id"
+    },
+    "Issue" : {
+      "@id" : "http://purl.org/ontology/bibo/Issue"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/terms/rights",
+      "@type" : "@id"
+    },
+    "status" : {
+      "@id" : "http://purl.org/ontology/bibo/status",
+      "@type" : "@id"
+    },
+    "shortDescription" : {
+      "@id" : "http://purl.org/ontology/bibo/shortDescription",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "producer" : {
+      "@id" : "http://purl.org/ontology/bibo/producer",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/ontology/bibo/identifier",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "number" : {
+      "@id" : "http://purl.org/ontology/bibo/number",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "deprecated" : {
+      "@id" : "http://www.w3.org/2002/07/owl#deprecated"
+    },
+    "coden" : {
+      "@id" : "http://purl.org/ontology/bibo/coden",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/terms/subject",
+      "@type" : "@id"
+    },
+    "upc" : {
+      "@id" : "http://purl.org/ontology/bibo/upc",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Standard" : {
+      "@id" : "http://purl.org/ontology/bibo/Standard"
+    },
+    "Seq" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"
+    },
+    "content" : {
+      "@id" : "http://purl.org/ontology/bibo/content",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "BookSection" : {
+      "@id" : "http://purl.org/ontology/bibo/BookSection"
+    },
+    "gtin14" : {
+      "@id" : "http://purl.org/ontology/bibo/gtin14",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "time" : {
+      "@id" : "http://purl.org/NET/c4dm/event.owl#time",
+      "@type" : "@id"
+    },
+    "Slideshow" : {
+      "@id" : "http://purl.org/ontology/bibo/Slideshow"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "authorList" : {
+      "@id" : "http://purl.org/ontology/bibo/authorList",
+      "@type" : "@id"
+    },
+    "produced_in" : {
+      "@id" : "http://purl.org/NET/c4dm/event.owl#produced_in",
+      "@type" : "@id"
+    },
+    "editorialNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#editorialNote"
+    },
+    "startingPage" : {
+      "@id" : "http://prismstandard.org/namespaces/1.2/basic/startingPage"
+    },
+    "CourtReporter" : {
+      "@id" : "http://purl.org/ontology/bibo/CourtReporter"
+    },
+    "Manual" : {
+      "@id" : "http://purl.org/ontology/bibo/Manual"
+    },
+    "LegalDecision" : {
+      "@id" : "http://purl.org/ontology/bibo/LegalDecision"
+    },
+    "PersonalCommunicationDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/PersonalCommunicationDocument"
+    },
+    "Interview" : {
+      "@id" : "http://purl.org/ontology/bibo/Interview"
+    },
+    "DocumentStatus" : {
+      "@id" : "http://purl.org/ontology/bibo/DocumentStatus"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title",
+      "@type" : "@id"
+    },
+    "issn" : {
+      "@id" : "http://prismstandard.org/namespaces/1.2/basic/issn"
+    },
+    "changeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#changeNote"
+    },
+    "edition" : {
+      "@id" : "http://prismstandard.org/namespaces/1.2/basic/edition"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher",
+      "@type" : "@id"
+    },
+    "ThesisDegree" : {
+      "@id" : "http://purl.org/ontology/bibo/ThesisDegree"
+    },
+    "Film" : {
+      "@id" : "http://purl.org/ontology/bibo/Film"
+    },
+    "List" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+    },
+    "Excerpt" : {
+      "@id" : "http://purl.org/ontology/bibo/Excerpt"
+    },
+    "numPages" : {
+      "@id" : "http://purl.org/ontology/bibo/numPages",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "Thesis" : {
+      "@id" : "http://purl.org/ontology/bibo/Thesis"
+    },
+    "oclcnum" : {
+      "@id" : "http://purl.org/ontology/bibo/oclcnum",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "volume" : {
+      "@id" : "http://prismstandard.org/namespaces/1.2/basic/volume"
+    },
+    "isReferencedBy" : {
+      "@id" : "http://purl.org/dc/terms/isReferencedBy",
+      "@type" : "@id"
+    },
+    "distributor" : {
+      "@id" : "http://purl.org/ontology/bibo/distributor",
+      "@type" : "@id"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/terms/date"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Series" : {
+      "@id" : "http://purl.org/ontology/bibo/Series"
+    },
+    "Periodical" : {
+      "@id" : "http://purl.org/ontology/bibo/Periodical"
+    },
+    "Newspaper" : {
+      "@id" : "http://purl.org/ontology/bibo/Newspaper"
+    },
+    "shortTitle" : {
+      "@id" : "http://purl.org/ontology/bibo/shortTitle",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "PersonalCommunication" : {
+      "@id" : "http://purl.org/ontology/bibo/PersonalCommunication"
+    },
+    "cites" : {
+      "@id" : "http://purl.org/ontology/bibo/cites",
+      "@type" : "@id"
+    },
+    "Resource" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    },
+    "AudioDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/AudioDocument"
+    },
+    "translationOf" : {
+      "@id" : "http://purl.org/ontology/bibo/translationOf",
+      "@type" : "@id"
+    },
+    "annotates" : {
+      "@id" : "http://purl.org/ontology/bibo/annotates",
+      "@type" : "@id"
+    },
+    "chapter" : {
+      "@id" : "http://purl.org/ontology/bibo/chapter",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "sub_event" : {
+      "@id" : "http://purl.org/NET/c4dm/event.owl#sub_event",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Image" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Image"
+    },
+    "givenname" : {
+      "@id" : "http://xmlns.com/foaf/0.1/givenname"
+    },
+    "Document" : {
+      "@id" : "http://purl.org/ontology/bibo/Document"
+    },
+    "Code" : {
+      "@id" : "http://purl.org/ontology/bibo/Code"
+    },
+    "family_name" : {
+      "@id" : "http://xmlns.com/foaf/0.1/family_name"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/terms/language",
+      "@type" : "@id"
+    },
+    "Hearing" : {
+      "@id" : "http://purl.org/ontology/bibo/Hearing"
+    },
+    "argued" : {
+      "@id" : "http://purl.org/ontology/bibo/argued",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor",
+      "@type" : "@id"
+    },
+    "asin" : {
+      "@id" : "http://purl.org/ontology/bibo/asin",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "editorList" : {
+      "@id" : "http://purl.org/ontology/bibo/editorList",
+      "@type" : "@id"
+    },
+    "Conference" : {
+      "@id" : "http://purl.org/ontology/bibo/Conference"
+    },
+    "Journal" : {
+      "@id" : "http://purl.org/ontology/bibo/Journal"
+    },
+    "pmid" : {
+      "@id" : "http://purl.org/ontology/bibo/pmid",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "numVolumes" : {
+      "@id" : "http://purl.org/ontology/bibo/numVolumes",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "isbn10" : {
+      "@id" : "http://purl.org/ontology/bibo/isbn10",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "isbn" : {
+      "@id" : "http://purl.org/ontology/bibo/isbn"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "lccn" : {
+      "@id" : "http://purl.org/ontology/bibo/lccn",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/terms/format",
+      "@type" : "@id"
+    },
+    "Statute" : {
+      "@id" : "http://purl.org/ontology/bibo/Statute"
+    },
+    "relation" : {
+      "@id" : "http://purl.org/dc/terms/relation",
+      "@type" : "@id"
+    },
+    "contributorList" : {
+      "@id" : "http://purl.org/ontology/bibo/contributorList",
+      "@type" : "@id"
+    },
+    "Collection" : {
+      "@id" : "http://purl.org/ontology/bibo/Collection"
+    },
+    "performer" : {
+      "@id" : "http://purl.org/ontology/bibo/performer",
+      "@type" : "@id"
+    },
+    "endingPage" : {
+      "@id" : "http://prismstandard.org/namespaces/1.2/basic/endingPage"
+    },
+    "editor" : {
+      "@id" : "http://purl.org/ontology/bibo/editor",
+      "@type" : "@id"
+    },
+    "Letter" : {
+      "@id" : "http://purl.org/ontology/bibo/Letter"
+    },
+    "Quote" : {
+      "@id" : "http://purl.org/ontology/bibo/Quote"
+    },
+    "isbn13" : {
+      "@id" : "http://purl.org/ontology/bibo/isbn13",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    }
+  }
+}

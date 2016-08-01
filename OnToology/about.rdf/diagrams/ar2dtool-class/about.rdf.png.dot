@@ -1,0 +1,23 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"http://netapps.muohio.edu/blogs/darcusb/darcusb/about/" -> "http://netapps.muohio.edu/blogs/darcusb/darcusb/" [ label = "foaf:weblog" ];
+	"NULL" -> "https://github.com/structureddynamics/Bibliographic-Ontology-BIBO" [ label = "doap:location" ];
+	"NULL" -> "https://github.com/structureddynamics/Bibliographic-Ontology-BIBO" [ label = "doap:browse" ];
+	"http://bibliontology.com/about/" -> "http://bibliontology.com" [ label = "doap:homepage" ];
+	"http://bibliontology.com/about/" -> "-57df20db:15645565581:-7ffc" [ label = "doap:repository" ];
+	"http://bibliontology.com/about/" -> "-57df20db:15645565581:-7ff8" [ label = "doap:release" ];
+	"http://bibliontology.com/about/" -> "http://netapps.muohio.edu/blogs/darcusb/darcusb/about/" [ label = "foaf:maker" ];
+	"http://bibliontology.com/about/" -> "-57df20db:15645565581:-7ff9" [ label = "doap:release" ];
+	"http://bibliontology.com/about/" -> "-57df20db:15645565581:-7ff7" [ label = "doap:release" ];
+	"http://bibliontology.com/about/" -> "-57df20db:15645565581:-7ffb" [ label = "doap:release" ];
+	"http://bibliontology.com/about/" -> "http://netapps.muohio.edu/blogs/darcusb/darcusb/about/" [ label = "doap:maintainer" ];
+	"http://bibliontology.com/about/" -> "http://groups.google.com/group/bibliographic-ontology-specification-group" [ label = "doap:mailing-list" ];
+	"http://bibliontology.com/about/" -> "http://fgiasson.com/me/" [ label = "doap:documenter" ];
+	"http://bibliontology.com/about/" -> "-57df20db:15645565581:-7ffa" [ label = "doap:release" ];
+	"http://bibliontology.com/about/" -> "http://netapps.muohio.edu/blogs/darcusb/darcusb/about/" [ label = "doap:documenter" ];
+	"http://bibliontology.com/about/" -> "http://fgiasson.com/me/" [ label = "foaf:maker" ];
+	"http://bibliontology.com/about/" -> "http://fgiasson.com/me/" [ label = "doap:maintainer" ];
+	"http://bibliontology.com/about/" -> "http://bibliontology.com/sites/bibliontology.com/files/images/bibliontology170.png" [ label = "foaf:logo" ];
+
+}
