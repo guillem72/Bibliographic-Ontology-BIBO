@@ -1,0 +1,11 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<..\index-en.html> a prov:Entity;
+	 dc:title "The Bibliographic Ontology";
+	 prov:wasAttributedTo <http://purl.org/ontology/bibo/fgiasson>;
+	 dc:creator <http://purl.org/ontology/bibo/fgiasson>;
+	 prov:wasAttributedTo <http://purl.org/ontology/bibo/bdarcus>;
+	 dc:creator <http://purl.org/ontology/bibo/bdarcus>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.
