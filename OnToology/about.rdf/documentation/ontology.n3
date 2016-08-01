@@ -1,0 +1,46 @@
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#release> _:A18680372X3aX15645565b75X3aXX2dX7ff8 .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#name> "The Bibliographic Ontology" .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#release> _:A18680372X3aX15645565b75X3aXX2dX7ff7 .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#homepage> <http://bibliontology.com> .
+<http://bibliontology.com/about/> <http://xmlns.com/foaf/0.1/maker> <http://netapps.muohio.edu/blogs/darcusb/darcusb/about/> .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#release> _:A18680372X3aX15645565b75X3aXX2dX7ffb .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#repository> _:A18680372X3aX15645565b75X3aXX2dX7ffc .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#release> _:A18680372X3aX15645565b75X3aXX2dX7ffa .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#maintainer> <http://netapps.muohio.edu/blogs/darcusb/darcusb/about/> .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#mailing-list> <http://groups.google.com/group/bibliographic-ontology-specification-group> .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#documenter> <http://fgiasson.com/me/> .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#documenter> <http://netapps.muohio.edu/blogs/darcusb/darcusb/about/> .
+<http://bibliontology.com/about/> <http://xmlns.com/foaf/0.1/maker> <http://fgiasson.com/me/> .
+<http://bibliontology.com/about/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usefulinc.com/ns/doap#Project> .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#created> "2007-04-14" .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#maintainer> <http://fgiasson.com/me/> .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#shortname> "BIBO" .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#shortdesc> "\n\t\tThe Bibliographic Ontology describes bibliographic things on the semantic Web in RDF. This ontology can be used as a citation ontology, as a document classification ontology, or simply as a way to describe any kind of document in RDF. It has been inspired by many existing document description metadata formats, and can be used as a common ground for converting other bibliographic data sources.\t\n\t" .
+<http://bibliontology.com/about/> <http://usefulinc.com/ns/doap#release> _:A18680372X3aX15645565b75X3aXX2dX7ff9 .
+<http://bibliontology.com/about/> <http://xmlns.com/foaf/0.1/logo> <http://bibliontology.com/sites/bibliontology.com/files/images/bibliontology170.png> .
+_:A18680372X3aX15645565b75X3aXX2dX7ff9 <http://usefulinc.com/ns/doap#revision> "1.1" .
+_:A18680372X3aX15645565b75X3aXX2dX7ff9 <http://usefulinc.com/ns/doap#created> "2008-11-28" .
+_:A18680372X3aX15645565b75X3aXX2dX7ff9 <http://usefulinc.com/ns/doap#name> "Version 1.1 of the Bibliographic Ontology" .
+_:A18680372X3aX15645565b75X3aXX2dX7ff9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usefulinc.com/ns/doap#Version> .
+_:A18680372X3aX15645565b75X3aXX2dX7ffc <http://usefulinc.com/ns/doap#location> <https://github.com/structureddynamics/Bibliographic-Ontology-BIBO> .
+_:A18680372X3aX15645565b75X3aXX2dX7ffc <http://usefulinc.com/ns/doap#browse> <https://github.com/structureddynamics/Bibliographic-Ontology-BIBO> .
+_:A18680372X3aX15645565b75X3aXX2dX7ffc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usefulinc.com/ns/doap#SVNRepository> .
+<http://netapps.muohio.edu/blogs/darcusb/darcusb/about/> <http://xmlns.com/foaf/0.1/weblog> <http://netapps.muohio.edu/blogs/darcusb/darcusb/> .
+<http://netapps.muohio.edu/blogs/darcusb/darcusb/about/> <http://xmlns.com/foaf/0.1/name> "Bruce DArcus" .
+<http://netapps.muohio.edu/blogs/darcusb/darcusb/about/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:A18680372X3aX15645565b75X3aXX2dX7ff7 <http://usefulinc.com/ns/doap#revision> "0.0" .
+_:A18680372X3aX15645565b75X3aXX2dX7ff7 <http://usefulinc.com/ns/doap#created> "2007-09-30" .
+_:A18680372X3aX15645565b75X3aXX2dX7ff7 <http://usefulinc.com/ns/doap#name> "Publication of the working draft." .
+_:A18680372X3aX15645565b75X3aXX2dX7ff7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usefulinc.com/ns/doap#Version> .
+_:A18680372X3aX15645565b75X3aXX2dX7ffa <http://usefulinc.com/ns/doap#revision> "1.2" .
+_:A18680372X3aX15645565b75X3aXX2dX7ffa <http://usefulinc.com/ns/doap#created> "2008-11-29" .
+_:A18680372X3aX15645565b75X3aXX2dX7ffa <http://usefulinc.com/ns/doap#name> "Version 1.2 of the Bibliographic Ontology" .
+_:A18680372X3aX15645565b75X3aXX2dX7ffa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usefulinc.com/ns/doap#Version> .
+_:A18680372X3aX15645565b75X3aXX2dX7ff8 <http://usefulinc.com/ns/doap#revision> "1.0" .
+_:A18680372X3aX15645565b75X3aXX2dX7ff8 <http://usefulinc.com/ns/doap#created> "2008-06-06" .
+_:A18680372X3aX15645565b75X3aXX2dX7ff8 <http://usefulinc.com/ns/doap#name> "First version of the Bibliographic Ontology" .
+_:A18680372X3aX15645565b75X3aXX2dX7ff8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usefulinc.com/ns/doap#Version> .
+_:A18680372X3aX15645565b75X3aXX2dX7ffb <http://usefulinc.com/ns/doap#revision> "1.3" .
+_:A18680372X3aX15645565b75X3aXX2dX7ffb <http://usefulinc.com/ns/doap#created> "2009-11-04" .
+_:A18680372X3aX15645565b75X3aXX2dX7ffb <http://usefulinc.com/ns/doap#name> "Version 1.3 of the Bibliographic Ontology" .
+_:A18680372X3aX15645565b75X3aXX2dX7ffb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://usefulinc.com/ns/doap#Version> .
