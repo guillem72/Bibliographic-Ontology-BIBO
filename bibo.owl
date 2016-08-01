@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 
+<!-- This is a comment-->
 
 <!DOCTYPE rdf:RDF [
     <!ENTITY terms "http://purl.org/dc/terms/" >
